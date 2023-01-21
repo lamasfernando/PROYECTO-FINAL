@@ -13,7 +13,7 @@ html{
 
 header {
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: white;
     padding: 10px 10px;
   }
   
@@ -64,7 +64,7 @@ header {
     position: relative;
     width: 100%;
     height: 100%;
-    background: #4d7599;
+    background: #3f6481;
 }
 
 .inicio2  .contenido-inicio2 {
@@ -125,7 +125,7 @@ header {
 }
 
 .sobremi .contenido-seccion h2 {
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
     padding: 20px 0;
 }
@@ -137,6 +137,7 @@ header {
 .sobremi .fila .col
 {
     width: 50%;
+    padding-left: 20px;
 }
 
 .sobremi .contenido-seccion p{
@@ -145,13 +146,13 @@ header {
     margin-bottom: 20px;
 }
 .sobremi .contenido-seccion p span{
-    color: #1CB698;
+    color:  #2a7da2;
     font-weight: bold;
 }
 
 .sobremi .fila .col h3{
     font-size: 28px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 .sobremi .fila .col ul{
@@ -162,14 +163,8 @@ header {
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: #1CB698;
+    color:  #2a7da2;
     width: 130px;
-}
-.sobremi .fila .col ul li span{
-    background-color: #1CB698;
-    padding: 3px;
-    font-weight: bold;
-    border-radius: 5px;
 }
 
 .sobremi .fila .col .contenedor-perfil {
@@ -187,3 +182,75 @@ header {
         padding: 10px;
     }
 }
+
+/* SKILLS*/
+
+.skills {
+    padding: 10px 20px;
+}
+
+.skills .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.skills h2{
+    font-size: 35px;
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+.skills .fila{
+    display: flex;
+}
+
+.skills .fila .col{
+    width: 50%;
+    padding: 0 20px;
+}
+
+.skills .fila .col h3{
+    font-size: 28px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+
+.skills .skill span{
+ position: relative;
+ font-size: 18px;
+}
+
+.skills .skill .barra-skill {
+position: relative;
+width: 100%;
+height: 10px;
+background: #968686;
+}
+
+.skills .skill .barra-skill div {
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+background: #2a7da2;
+}
+
+.skills .fila .col .skill {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:700px){
+    .skills .fila{
+        display: block;
+        width: 100%;
+    }
+    .skills .fila .col{
+        width: 100%;
+        padding: 0;
+    }
+}
+

@@ -1,7 +1,18 @@
+//Botones redes sociales
+
+function facebook() {
+    location.replace("https://www.facebook.com/")
+  }
+
+  function twitter() {
+    location.replace("https://twitter.com/")
+  }
+
+  function linkedin() {
+    location.replace("https://www.linkedin.com/")
+  }
 
 // Scroll up
-
-
 
 let caja=document.getElementById("button-up");
 caja.addEventListener("click",function(){

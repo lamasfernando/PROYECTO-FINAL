@@ -30,7 +30,6 @@ header {
     border-radius: 4px;
   }
   
-  
   header a:hover {
     background-color: #ddd;
     color: black;
@@ -119,7 +118,6 @@ header {
 }
 }
 
-
 /* SOBRE MI*/
 .sobremi .contenido-seccion{
     max-width: 1100px;
@@ -129,17 +127,16 @@ header {
 .sobremi .contenido-seccion h2 {
     font-size: 35px;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px 0 5px;
 }
-
 
 .sobremi .fila{
     display: flex;
 }
-.sobremi .fila .col
-{
+.sobremi .fila .col{
     width: 50%;
     padding-left: 20px;
+    background: lavender;
 }
 
 .sobremi .contenido-seccion p{
@@ -154,7 +151,7 @@ header {
 
 .sobremi .fila .col h3{
     font-size: 28px;
-    margin-bottom: 10px;
+    margin: 20px 0 20px;
 }
 
 .sobremi .fila .col ul{
@@ -181,14 +178,13 @@ header {
     }
     .sobremi .fila .col{
         width: 100%;
-        padding: 10px;
     }
 }
 
 /* SKILLS*/
 
 .skills {
-    padding: 10px 20px;
+    padding: 10px 0;
 }
 
 .skills .contenido-seccion{
@@ -199,8 +195,7 @@ header {
 .skills h2{
     font-size: 35px;
     text-align: center;
-    padding: 20px 0;
-
+    padding: 5px 0 5px;
 }
 
 .skills .fila{
@@ -209,7 +204,8 @@ header {
 
 .skills .fila .col{
     width: 50%;
-    padding: 0 20px;
+    padding: 0 20px 25px;
+    background: lavender;
 }
 
 .skills .fila .col h3{
@@ -217,8 +213,6 @@ header {
     margin-bottom: 20px;
     margin-top: 20px;
 }
-
-
 
 .skills .skill span{
  position: relative;
@@ -252,11 +246,12 @@ background: #2a7da2;
     }
     .skills .fila .col{
         width: 100%;
-        padding: 0;
+        padding: 0 20px 20px;
     }
 }
 
-/* SECCION CURRICULUM */
+/* CURRICULUM */
+
 .curriculum {
     padding: 50px 20px;
 }
@@ -270,13 +265,13 @@ background: #2a7da2;
     font-size: 35px;
     text-align: center;
     padding: 20px 0;
-
 }
 
 .curriculum .fila{
     display: flex;
     justify-content: space-between;
 }
+
 .curriculum .fila .col{
     width: 49%;
     padding: 0 20px;
@@ -287,44 +282,54 @@ background: #2a7da2;
     margin-bottom: 25px;
     margin-left: 20px;
 }
+
 .curriculum .fila .izquierda{
     border-right: 2px solid #2a7da2;
 }
+
 .curriculum .fila .derecha{
     border-left: 2px solid #2a7da2;
 }
+
 .curriculum .fila .item{
     padding: 25px;
     margin-bottom: 30px;
-    background-color: #cbdeee;
+    background-color: lavender;
     position: relative;
 }
+
 .curriculum .fila .item h4{
     font-size: 20px;
     margin-bottom: 10px;
 }
+
 .curriculum .fila .item .casa{
     color: #2a7da2;
     font-size: 22px;
     font-weight: bold;
     display: block;
 }
+
 .curriculum .fila .item .fecha{
     display: block;
     color: #2a7da2;
     margin-bottom: 10px;
 }
+
 .curriculum .fila .item p{
     line-height: 24px;
 }
+
 .curriculum .fila .izq{
     border-right: 2px solid  #2a7da2;
     margin-right: 20px;
 }
+
 .curriculum .fila .der{
     border-left: 2px solid #2a7da2;
     margin-left: 20px;
 }
+
 .curriculum .fila .item .conectori{
     height: 2px;
     background-color: #2a7da2;
@@ -334,6 +339,7 @@ background: #2a7da2;
     right: -47px;
     z-index: 5;
 }
+
 .curriculum .fila .item .conectori .circuloi{
     display: block;
     height: 10px;
@@ -344,6 +350,7 @@ background: #2a7da2;
     position: relative;
     bottom: 4px;
 }
+
 .curriculum .fila .item .conectord{
     height: 2px;
     background-color: #2a7da2;
@@ -386,7 +393,6 @@ footer{
     width: 100%;
 }
 
-
 @media screen and (max-width:700px){
         footer {
         display: block;
@@ -423,7 +429,3 @@ footer{
         right: -45%;        
     }
 }
-
-
-
-

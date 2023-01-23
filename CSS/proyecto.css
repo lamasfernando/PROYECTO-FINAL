@@ -5,18 +5,22 @@
     margin: 0;
     padding: 0;
 }
-html{
-    scroll-behavior: smooth;
+
+html {
+scroll-behavior: smooth;
 }
+
+
 
 /* MENU */
 
 header {
     overflow: hidden;
     background-color: white;
-    padding: 10px 10px;
+    padding: 5px 5px;
   }
   
+
   header a {
     float: left;
     color: black;
@@ -253,4 +257,188 @@ background: #2a7da2;
         padding: 0;
     }
 }
+
+/* SECCION CURRICULUM */
+.curriculum {
+    padding: 50px 20px;
+}
+
+.curriculum .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.curriculum h2{
+    font-size: 35px;
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+.curriculum .fila{
+    display: flex;
+    justify-content: space-between;
+}
+.curriculum .fila .col{
+    width: 49%;
+    padding: 0 20px;
+}
+
+.curriculum .fila .col h3{
+    font-size: 28px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+.curriculum .fila .izquierda{
+    border-right: 2px solid #2a7da2;
+}
+.curriculum .fila .derecha{
+    border-left: 2px solid #2a7da2;
+}
+.curriculum .fila .item{
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: #cbdeee;
+    position: relative;
+}
+.curriculum .fila .item h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.curriculum .fila .item .casa{
+    color: #2a7da2;
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+}
+.curriculum .fila .item .fecha{
+    display: block;
+    color: #2a7da2;
+    margin-bottom: 10px;
+}
+.curriculum .fila .item p{
+    line-height: 24px;
+}
+.curriculum .fila .izq{
+    border-right: 2px solid  #2a7da2;
+    margin-right: 20px;
+}
+.curriculum .fila .der{
+    border-left: 2px solid #2a7da2;
+    margin-left: 20px;
+}
+.curriculum .fila .item .conectori{
+    height: 2px;
+    background-color: #2a7da2;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    right: -47px;
+    z-index: 5;
+}
+.curriculum .fila .item .conectori .circuloi{
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #2a7da2;
+    float: right;
+    position: relative;
+    bottom: 4px;
+}
+.curriculum .fila .item .conectord{
+    height: 2px;
+    background-color: #2a7da2;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    left: -47px;
+    z-index: 5;
+}
+.curriculum .fila .item .conectord .circulod{
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #2a7da2;
+    float: left;
+    position: relative;
+    bottom: 4px;
+}
+
+@media screen and (max-width:700px){
+    .curriculum .fila{
+        display: block;
+    }
+    .curriculum .fila .col{
+        width: 90%;
+    }
+    .curriculum .fila .derecha{
+        margin-left: 20px;
+    }
+}
+
+/* FOOTER 
+
+footer{
+    background-color: #f1f0eb;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+footer .arriba {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color:  #2a7da2;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 15px;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+@media screen and (max-width:700px){
+        footer {
+        display: block;
+        width: 100%;
+    }
+}*/
+
+/*Boton de ir arriba*/
+
+#button-up{
+
+        width: 60px;
+        height: 60px;
+        background: #2a7da2;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        border-radius: 50%;
+        font-size: 20px;
+        position: fixed;
+        bottom: 20px;
+        right: 50px;
+        cursor: pointer;
+        display: none;
+    }
+
+    @media screen and (max-width:700px){
+        #button-up {
+        display: block;
+        position: relative;
+        right: -45%;        
+    }
+}
+
+
+
 
